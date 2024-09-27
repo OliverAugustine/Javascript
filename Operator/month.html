@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = parseInt(prompt("Enter the value of a:"));
+        var month = (a==31)?"January,March,May,July,September,November":
+                    (a==30)?"Febuary,April,June,August,october,December":
+                    "Invalied value"
+        document.write(`The number of days in a month is : ${month}`);            
+    </script>
+</body>
+</html>
