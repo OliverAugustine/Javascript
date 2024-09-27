@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = parseInt(prompt("Enter the value of a"));
+        var weeks = (a==1)?"It is a Monday":
+                    (a==2)?"It is a Tuesday":
+                    (a==3)?"It is a Wednesday":
+                    (a==4)?"It is a Thusday":
+                    (a==5)?"It is a Friday":
+                    (a==6)?"It is a Saturday":
+                    (a==7)?"It is a Sunday":"Th number is does not exits"
+        document.write(`The given day is:${weeks}`);           
+    </script>
+</body>
+</html>
