@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var mark = parseInt(prompt("Enter the student mark:"));
+        var Grade = (mark>80)? "It is A Grade":
+                    (mark>60)? "It is B Grade":
+                    (mark>50)? "It is C Grade":
+                    (mark>45)? "It is D Grade":
+                    (mark>25)? "It is E Grade":
+                    (mark<=25)?"It is F Grade":
+                    "It is invalid mark"
+        document.write(`The Grade of the student is : ${Grade}`);            
+    </script>    
+</body>
+</html>
