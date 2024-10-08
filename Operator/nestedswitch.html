@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Switch Case Example</title>
+</head>
+<body>
+    <h1>Vehicle Selection</h1>
+    <script>
+    
+            // Simulated user input
+            let vehicleType = 2; // User selects "Cars"
+            let model = 3; // User selects "Tesla"
+
+            // Main vehicle type selection
+            switch (vehicleType) {
+                case 1: // Bikes
+                    switch (model) {
+                        case 1:
+                            console.log("You selected Honda Bike.");
+                            break;
+                        case 2:
+                            console.log("You selected Yamaha Bike.");
+                            break;
+                        case 3:
+                            console.log("You selected Ducati Bike.");
+                            break;
+                        default:
+                            console.log("Invalid bike model selection.");
+                    }
+                    break;
+
+                case 2: // Cars
+                    switch (model) {
+                        case 1:
+                            console.log("You selected Ford.");
+                            break;
+                        case 2:
+                            console.log("You selected Toyota.");
+                            break;
+                        case 3:
+                            console.log("You selected Tesla.");
+                            break;
+                        default:
+                            console.log("Invalid car model selection.");
+                    }
+                    break;
+
+                case 3: // Trucks
+                    switch (model) {
+                        case 1:
+                            console.log("You selected Ford Truck.");
+                            break;
+                        case 2:
+                            console.log("You selected Chevy Truck.");
+                            break;
+                        case 3:
+                            console.log("You selected Ram Truck.");
+                            break;
+                        default:
+                            console.log("Invalid truck model selection.");
+                    }
+                    break;
+
+                default:
+                    console.log("Invalid vehicle type selection.");
+                }
+    </script>
+</body>
+</html>
