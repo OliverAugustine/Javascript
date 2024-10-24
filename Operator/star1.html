@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   addition : <button onclick="addNumber()">click me</button><br>
+    subtraction : <button onclick="subNumber()">click me</button><br>
+   multiplication: <button onclick="mulNumber()">click me</button><br>
+    division: <button onclick="divNumber()">click me</button>
+    <script>
+        function addNumber()
+        {
+        var x = parseInt(prompt("Enter the value x"));
+        var y = parseInt(prompt("Enter the value y"));
+        var z = x+y;
+        document.write(z);
+        }
+        function subNumber()
+        {
+        var x = parseInt(prompt("Enter the value x"));
+        var y = parseInt(prompt("Enter the value y"));
+        var z = x-y;
+        document.write(z);
+        }
+        function mulNumber()
+        {
+        var x = parseInt(prompt("Enter the value x"));
+        var y = parseInt(prompt("Enter the value y"));
+        var z = x*y;
+        document.write(z);
+        }
+        function divNumber()
+        {
+        var x = parseInt(prompt("Enter the value x"));
+        var y = parseInt(prompt("Enter the value y"));
+        var z = x/y;
+        document.write(z);
+        }
+    </script>
+    
+</body>
+</html>
